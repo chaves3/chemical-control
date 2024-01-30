@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.btn-dark:hover{
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+}
+
+.buton{
+	width: 100px;
+	height: 30px;
+	background-color: black;
+	color: hsl(60, 68%, 55%);
+}
+
+.buton:hover{
+	background-color: hsl(60, 68%, 55%);
+	color: black;
+
+}
