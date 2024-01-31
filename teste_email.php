@@ -100,12 +100,12 @@ try {
     $mail->SMTPSecure = "tls";
     //echo 'SMTP secure...<br/>';
     $mail->SMTPAuth = true;
-    $mail->Username = 'matheussilvachaves19@gmail.com';
-    $mail->Password = 'dovluhewlgzfgzoi';
+    $mail->Username = '';
+    $mail->Password = '';
     $mail->Port = 587;
     $mail->CharSet = "UTF-8";
-    $mail->setFrom('matheussilvachaves19@gmail.com');
-    $mail->addAddress('matheussilvachaves19@gmail.com');
+    $mail->setFrom('');
+    $mail->addAddress('');
     $mail->SMTPOptions = array(
     'ssl' => array(
     'verify_peer' => false,
